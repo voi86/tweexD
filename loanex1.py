@@ -23,6 +23,7 @@ try:
     float(v)
 except:
     print("Enter a number")
+    quit()
 r=float(v)/1200
 
 pPV=input("How much is being borrowed (no commas)?")
