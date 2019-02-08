@@ -1,10 +1,11 @@
-import random
-def rng(a,b):
-    ran = random.randint(a,b)
-    return ran
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Feb 1 09:10:40 2019
 
-x=0
-while x<50:
-    a=rng(1,3)
-    print(a, end="")
-    x=x+1
+"""
+# Thuy Le - MHI 289I - Homework 2 - Part 1
+
+import random
+
+randoms = [random.randint(1, 3) for x in range(1, 51)]
+print(randoms)
