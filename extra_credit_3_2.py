@@ -56,4 +56,3 @@ elif len(minbreath) == 3:
 elif len(minbreath) == 4:
     print("The minimum difference between air inspired and expired is %d for BN %d, %d, %d, and %d" % (min(diff), minbreath[0], minbreath[1], minbreath[2], minbreath[3]))
     
-print("The minimum difference between air inspired and expired is %d" % (min(diff)))
