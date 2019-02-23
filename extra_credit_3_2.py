@@ -50,9 +50,9 @@ print("The maximum difference between air inspired and expired is %d for BN %d" 
 if len(minbreath) == 1:
     print("The minimum difference between air inspired and expired is %d for BN %d" % (min(diff), minbreath[0]))
 elif len(minbreath) == 2:
-    print("The minimum difference between air inspired and expired is %d for BN %d and %d" % (min(diff), minbreath[0], minbreath[1]))
+    print("The minimum difference between air inspired and expired is %d for BNs %d and %d" % (min(diff), minbreath[0], minbreath[1]))
 elif len(minbreath) == 3:
-    print("The minimum difference between air inspired and expired is %d for BN %d, %d, and %d" % (min(diff), minbreath[0], minbreath[1], minbreath[2]))
+    print("The minimum difference between air inspired and expired is %d for BNs %d, %d, and %d" % (min(diff), minbreath[0], minbreath[1], minbreath[2]))
 elif len(minbreath) == 4:
-    print("The minimum difference between air inspired and expired is %d for BN %d, %d, %d, and %d" % (min(diff), minbreath[0], minbreath[1], minbreath[2], minbreath[3]))
+    print("The minimum difference between air inspired and expired is %d for BNs %d, %d, %d, and %d" % (min(diff), minbreath[0], minbreath[1], minbreath[2], minbreath[3]))
     
